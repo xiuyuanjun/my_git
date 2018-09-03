@@ -13,6 +13,12 @@ HEAD is now at ea34578 B
 
 执行 git rest --hard id即可。
 
+
+
+
+
+
+
 git clean命令用来从你的工作目录中删除所有没有tracked过的文件
 
 git clean经常和git reset --hard一起结合使用. 记住reset只影响被track过的文件, 所以需要clean来删除没有track过的文件. 结合使用这两个命令能让你的工作目录完全回到一个指定的<commit>的状态
