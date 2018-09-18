@@ -66,3 +66,6 @@ git reset --hard
 git clean -df
 
 运行后, 工作目录和缓存区回到最近一次commit时候一摸一样的状态，git status会告诉你这是一个干净的工作目录, 又是一个新的开始了！
+
+git查看远程仓库地址命令：
+git remote -v
