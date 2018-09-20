@@ -71,3 +71,8 @@ git查看远程仓库地址命令：
 git remote -v
 
 git fetch 更新远程代码到本地仓库
+
+Git 查询某次历史提交的修改内容
+我们首先可以git log显示历史的提交列表：
+之后我们用git show <commit-hashId> 便可以显示某次提交的修改内容
+同样 git show <commit-hashId> filename 可以显示某次提交的某个内容的修改信息。
