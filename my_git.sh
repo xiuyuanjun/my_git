@@ -105,5 +105,22 @@ origin	https://github.com/schacon/ticgit (fetch)
 origin	https://github.com/schacon/ticgit (push)
 如果你的远程仓库不止一个，该命令会将它们全部列出。 例如，与几个协作者合作的，拥有多个远程仓库的仓库看起来像下面这样：
 
+项目初始，为了实现不同的功能，不同人员处理不同的功能，所以在git上创建了很多分支（branch）。对于git菜鸟，只会add branch 或者Git commit, 不会删除git分支也是一个烦恼。
+
+直接上代码：
+
+删除本地分支：git branch -d 分支名称
+
+强制删除本地分支：git branch -D 分支名称
+
+删除远程分支：git push origin --delete 分支名称
+
+git branch -d developbranch
+ 
+git branch -D developbranch
+ 
+git push origin --delete developbranch
+注意：删除分支就不可以撤销。删除分支前需要慎重。
+
 
 
